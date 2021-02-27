@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.lv-header-image{
+    background-color: rgb(221, 221, 215);
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url("https://ynet-images1.yit.co.il/picserver5/crop_images/2021/02/25/Symx7MOHfO/Symx7MOHfO_0_0_1000_668_0_x-large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   .header-container{
+        height: 100%;
+        justify-content: center;
+    
+        .header-title{
+            text-align: center;
+            font-size: 30px;
+            color: blue;
+            font-weight: bolder;
+            padding-top: 20px;
+        }
+        .header-social{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 68px;
+            .follow-us-icon{
+            width: 50px;
+            }
+        }
+    }   
+}
