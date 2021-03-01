@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>video-play</title>
+    <g id="Locusview-LP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-180.000000, -2456.000000)" fill="#FFFFFF" fill-rule="nonzero" id="gallery">
+            <g transform="translate(47.827586, 1984.000000)">
+                <g id="video" transform="translate(0.500000, 340.475050)">
+                    <path d="M162,132 C145.431,132 132,145.431 132,162 C132,178.569 145.431,192 162,192 C178.569,192 192,178.569 192,162 C192,145.431 178.569,132 162,132 Z M162,138 C175.233,138 186,148.767 186,162 C186,175.233 175.233,186 162,186 C148.767,186 138,175.233 138,162 C138,148.767 148.767,138 162,138 Z M156,148.5 L156,175.5 L174,162 L156,148.5 Z" id="video-play"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

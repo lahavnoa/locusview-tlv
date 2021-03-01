@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>back up arrow</title>
+    <g id="Locusview-LP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1327.000000, -2679.000000)" id="back-up-arrow">
+            <g transform="translate(1327.000000, 2679.000000)">
+                <circle id="Oval" fill="#3A3A44" cx="19" cy="19" r="19"></circle>
+                <polygon id="back-up" fill="#FFFFFF" fill-rule="nonzero" points="19.0000003 8.23333333 11 16.6586108 12.6972376 18.4460729 17.8685085 12.9998991 17.8685085 29.7666667 20.131492 29.7666667 20.131492 12.9998991 25.3027624 18.4460729 27 16.6586108"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

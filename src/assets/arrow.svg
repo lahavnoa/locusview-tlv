@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="34px" viewBox="0 0 19 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <g id="Locusview-LP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1373.000000, -1725.000000)" fill="#2A2977" fill-rule="nonzero" id="testimonials">
+            <g transform="translate(0.000000, 1488.000000)">
+                <g id="navigation" transform="translate(49.000000, 237.000000)">
+                    <polygon id="arrow" transform="translate(1333.523438, 17.140625) rotate(-90.000000) translate(-1333.523438, -17.140625) " points="1318.79688 8 1317 9.796875 1332.625 25.421875 1333.52344 26.28125 1334.42188 25.421875 1350.04688 9.796875 1348.25 8 1333.52344 22.7265625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
