@@ -211,3 +211,52 @@
   }
 }
 
+.sixth-section{
+  background-image: url('./../assets/BG-covid.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 241px;
+  .first-title{
+    color: #FFFFFF;
+    padding-top: 33px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .second-title{
+    color: #FFFFFF;
+    padding-bottom: 17px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .text{
+    padding-bottom: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.seventh-section{
+  .title{
+    padding-top: 47px;
+    font-size: 24px;
+    color: #2A2977;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+.button{
+  background-color:#C4532C ;
+  .first-text{
+    padding-left: 163px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #FFFFFF;
+    .second-text{
+      padding-left: 921px;
+    }
+  }
+}
+
