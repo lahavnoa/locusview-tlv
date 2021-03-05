@@ -1,5 +1,11 @@
 @import "./src/vars";
 
+.flex-row-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -61,13 +67,52 @@
 }
 
 .second-section{
-  .icon_and_text{
-
-    .text-icon{
-
+  height: 983px;
+  padding: 63px 15%;
+  .second-section-part1{
+      height: 447px;
+      .flex-row-center{
+        height: 100px;
+        padding-bottom: 80px;
+      }
+      .title{
+        color: $color-orange;
+        font-size: 26px;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 50px;
+      }
+      .icon-and-text{
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        .text-icon{
+          height: 70px;
+        }
+        .icon-text{
+          color: #3A3A44;
+        }
     }
-    .icon_text{
-
+  }
+  .second-section-part2{
+    height: 473px;
+    .text{
+      margin-top: -5px;
+      padding-left: 40px;
+      max-height: 266px;
+      overflow-x: auto;
+      max-width: 500px;
+      .title{
+        line-height: 32px;
+        size: 18px;
+        color: $color-orange;
+        font-weight: bold;
+      }
+      .main-text{
+        color: #3A3A44;
+      }
     }
   }
 }
