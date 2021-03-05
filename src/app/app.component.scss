@@ -11,6 +11,13 @@
   flex-direction: column;
 }
 
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .lv-header-image {
   background-color: rgb(221, 221, 215);
   height: 505px;
@@ -116,3 +123,53 @@
     }
   }
 }
+
+.third-section{
+  height: 445px;
+  .title{
+    text-align: center;
+    color: #2A2977;
+    font-weight: bold;
+    font-size: 24px;
+    height: 31px;
+    padding-bottom: 33px;
+  }
+  .text{
+    background-image: url('./../assets/BG-testimonials.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 269px;
+    padding: 56px 72px ;
+    .text-title{
+      color: #2A2977;
+      font-weight: bold;
+      line-height: 26px;
+      size: 18px;
+      height: 52px;
+    }
+    .paragraph{
+      padding-top: 24px;
+      padding-bottom: 24px;
+      padding-right: 163px;
+    }
+  }
+}
+
+.forth-section{
+  margin-top: 51px;
+  .images{
+    flex-flow: wrap;
+    .image{
+      width: 23vw;
+      margin: 0.4vw;
+      img{
+        width: inherit;
+      }
+    }
+  }
+}
+
+.fifth-section{
+
+}
+
