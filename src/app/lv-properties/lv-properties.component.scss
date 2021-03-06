@@ -45,8 +45,6 @@
   }
 
   .second-section-part2 {
-    height: 473px;
-
     .text {
       margin-top: -61px;
       padding-left: 40px;
@@ -73,6 +71,7 @@
 @media only screen and (max-width: 1000px) {
   .second-section {
     padding: 63px 0;
+
     .second-section-part1 {
 
       .flex-row-center {
@@ -107,11 +106,12 @@
 
     .second-section-part2 {
       flex-direction: column;
-
+      padding: 0 1vw;
       .text {
         margin-top: 10px;
         max-height: initial;
         overflow-x: initial;
+
         .title {
 
         }
@@ -124,7 +124,7 @@
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 500px) {
   .second-section {
     .second-section-part1 {
 
@@ -152,6 +152,12 @@
     }
 
     .second-section-part2 {
+      .computer-icon {
+        width: 80vw;
+        img{
+          width: inherit;
+        }
+      }
 
       .text {
 

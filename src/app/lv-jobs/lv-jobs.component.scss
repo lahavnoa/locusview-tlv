@@ -44,3 +44,58 @@
     }
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .fifth-section {
+    .title {
+
+    }
+
+    .cards-container {
+
+
+      .card {
+        width: 39vw;
+        height: 29vw;
+
+        .card-title {
+
+        }
+
+        .description-container {
+
+          .description {
+            padding: 0 1vw;
+          }
+        }
+
+        .link-to-job {
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .fifth-section {
+    .cards-container {
+      .card {
+        width: 51vw;
+        height: 34vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .fifth-section {
+    .cards-container {
+      .card {
+        width: 65vw;
+        height: 54vw;
+      }
+    }
+  }
+}
+

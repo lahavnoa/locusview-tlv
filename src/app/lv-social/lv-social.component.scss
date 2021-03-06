@@ -1,6 +1,4 @@
 .forth-section {
-  margin-top: 51px;
-
   .images {
     .image {
       width: 23vw;
@@ -8,6 +6,20 @@
 
       img {
         width: inherit;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .forth-section {
+    .images {
+      .image {
+        width: 37vw;
+        margin: 0.8vw;
+        img {
+          width: inherit;
+        }
       }
     }
   }
