@@ -1,0 +1,17 @@
+
+footer {
+  display: flex;
+  background-color: #C4532C;
+  height: 50px;
+  color: white;
+  line-height: 50px;
+
+  .text {
+    width: 30vw;
+    text-align: center;
+  }
+
+  span {
+    flex: 1;
+  }
+}

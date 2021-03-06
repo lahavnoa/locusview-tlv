@@ -1,0 +1,14 @@
+.forth-section {
+  margin-top: 51px;
+
+  .images {
+    .image {
+      width: 23vw;
+      margin: 0.4vw;
+
+      img {
+        width: inherit;
+      }
+    }
+  }
+}

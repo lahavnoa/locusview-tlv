@@ -1,0 +1,40 @@
+
+.seventh-section {
+  .title {
+    margin-top: 47px;
+    padding-bottom: 54px;
+    font-size: 24px;
+    color: #2A2977;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .articles-container {
+    color: #3A3A44;
+    width: 80%;
+
+    .article-container {
+      padding: 0 40px;
+      margin-bottom: 61px;
+
+      img {
+        width: 170px;
+      }
+
+      .article-description-container {
+        height: 100px;
+        justify-content: center;
+        margin-left: 36px;
+
+        .article-description {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+
+        .article-date {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
