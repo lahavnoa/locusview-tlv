@@ -1,6 +1,7 @@
 @import "./src/vars";
 
-.flex-row-center{
+
+.flex-row-center {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +19,7 @@
   align-items: center;
 }
 
-.flex-wrap{
+.flex-wrap {
   display: flex;
   flex-flow: wrap;
 }
@@ -70,6 +71,7 @@
         align-items: center;
         margin-top: 65px;
         padding-bottom: 33px;
+
         .follow-us-icon {
           width: 50px;
         }
@@ -78,60 +80,71 @@
   }
 }
 
-.second-section{
+.second-section {
   height: 983px;
   padding: 63px 15%;
-  .second-section-part1{
-      height: 447px;
-      .flex-row-center{
-        height: 100px;
-        padding-bottom: 80px;
+
+  .second-section-part1 {
+    height: 447px;
+
+    .flex-row-center {
+      height: 100px;
+      padding-bottom: 80px;
+    }
+
+    .title {
+      color: $color-orange;
+      font-size: 26px;
+      text-align: center;
+      font-weight: bold;
+      padding-bottom: 50px;
+    }
+
+    .icon-and-text {
+      font-size: 20px;
+      text-align: center;
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+
+      .text-icon {
+        height: 70px;
       }
-      .title{
-        color: $color-orange;
-        font-size: 26px;
-        text-align: center;
-        font-weight: bold;
-        padding-bottom: 50px;
+
+      .icon-text {
+        color: #3A3A44;
       }
-      .icon-and-text{
-        font-size: 20px;
-        text-align: center;
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-        .text-icon{
-          height: 70px;
-        }
-        .icon-text{
-          color: #3A3A44;
-        }
     }
   }
-  .second-section-part2{
+
+  .second-section-part2 {
     height: 473px;
-    .text{
+
+    .text {
       margin-top: -5px;
       padding-left: 40px;
       max-height: 266px;
       overflow-x: auto;
       max-width: 500px;
-      .title{
+
+      .title {
         line-height: 32px;
         size: 18px;
         color: $color-orange;
         font-weight: bold;
       }
-      .main-text{
+
+      .main-text {
         color: #3A3A44;
       }
     }
   }
 }
 
-.third-section{
+.third-section {
   height: 445px;
-  .title{
+
+  .title {
     text-align: center;
     color: #2A2977;
     font-weight: bold;
@@ -139,20 +152,23 @@
     height: 31px;
     padding-bottom: 33px;
   }
-  .text{
+
+  .text {
     background-image: url('./../assets/BG-testimonials.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 269px;
-    padding: 56px 72px ;
-    .text-title{
+    padding: 56px 72px;
+
+    .text-title {
       color: #2A2977;
       font-weight: bold;
       line-height: 26px;
       size: 18px;
       height: 52px;
     }
-    .paragraph{
+
+    .paragraph {
       padding-top: 24px;
       padding-bottom: 24px;
       padding-right: 163px;
@@ -160,103 +176,151 @@
   }
 }
 
-.forth-section{
+.forth-section {
   margin-top: 51px;
-  .images{
-    .image{
+
+  .images {
+    .image {
       width: 23vw;
       margin: 0.4vw;
-      img{
+
+      img {
         width: inherit;
       }
     }
   }
 }
 
-.fifth-section{
+.fifth-section {
   background-color: #F5F5F5;
-  .title{
+
+  .title {
     font-weight: bold;
     color: #2A2977;
     font-size: 24px;
     margin-top: 56px;
     margin-bottom: 40px;
   }
-  .cards-container{
+
+  .cards-container {
     justify-content: center;
-    .card{
+    padding-bottom: 73px;
+
+    .card {
       background-color: white;
       width: 24.7vw;
       height: 16.74vw;
       margin: 1vw;
-      .title{
-        color:#2A2977 ;
+      font-size: 14px;
+
+      .card-title {
+        color: #2A2977;
         font-weight: bold;
-        padding-top: 31px;
+        padding-top: 2vw;
       }
-      .description-container{
+
+      .description-container {
         flex: 1;
-        .description{
+
+        .description {
           font-size: 28px;
           color: #C4532C;
           text-align: center;
           padding: 0 24px;
         }
       }
-      .link-to-job{
+
+      .link-to-job {
         color: #3A3A44;
-        padding-bottom: 21.43px;
+        padding-bottom: 1.5vw;
       }
     }
   }
 }
 
-.sixth-section{
+.sixth-section {
   background-image: url('./../assets/BG-covid.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 241px;
-  .first-title{
-    color: #FFFFFF;
+  height: 240px;
+  color: white;
+
+  .first-title {
     padding-top: 33px;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
   }
-  .second-title{
-    color: #FFFFFF;
+
+  .second-title {
     padding-bottom: 17px;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
   }
-  .text{
+
+  .text {
     padding-bottom: 32px;
-    color: #FFFFFF;
     text-align: center;
     justify-content: center;
+    width: 50%;
   }
 }
 
-.seventh-section{
-  .title{
-    padding-top: 47px;
+.seventh-section {
+  .title {
+    margin-top: 47px;
+    padding-bottom: 54px;
     font-size: 24px;
     color: #2A2977;
     font-weight: bold;
     text-align: center;
   }
-}
-.button{
-  background-color:#C4532C ;
-  .first-text{
-    padding-left: 163px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    color: #FFFFFF;
-    .second-text{
-      padding-left: 921px;
+
+  .articles-container {
+    color: #3A3A44;
+    width: 80%;
+
+    .article-container {
+      padding: 0 40px;
+      margin-bottom: 61px;
+
+      img {
+        width: 170px;
+      }
+
+      .article-description-container {
+        height: 100px;
+        justify-content: center;
+        margin-left: 36px;
+
+        .article-description {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+
+        .article-date {
+          font-weight: 300;
+        }
+      }
     }
+  }
+}
+
+footer {
+  display: flex;
+  background-color: #C4532C;
+  height: 50px;
+  color: white;
+  line-height: 50px;
+
+  .text {
+    width: 30vw;
+    text-align: center;
+  }
+
+  span {
+    flex: 1;
   }
 }
 

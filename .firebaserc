@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "locusview-tlv": {
+      "hosting": {
+        "locusview-tlv": [
+          "locusview-tlv"
+        ]
+      }
+    }
+  }
+}

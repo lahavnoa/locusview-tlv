@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  firebaseConfig: {
+  firebase: {
     apiKey: 'AIzaSyBZi2MM5Y2daE1LSfX-bDrc_Ykkp1ws2io',
     authDomain: 'locusview-tlv.firebaseapp.com',
     databaseURL: 'https://locusview-tlv-default-rtdb.firebaseio.com',
