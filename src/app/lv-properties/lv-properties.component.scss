@@ -1,18 +1,16 @@
 @import "./src/vars";
 
 .second-section {
-  height: 983px;
+  //height: 983px;
   padding: 63px 8vw;
 
   .second-section-part1 {
-    height: 447px;
-
     .flex-row-center {
       height: 100px;
       padding-bottom: 80px;
     }
 
-    .title {
+    .prop-title {
       color: $color-orange;
       font-size: 26px;
       text-align: center;
@@ -20,19 +18,28 @@
       padding-bottom: 50px;
     }
 
-    .icon-and-text {
-      font-size: 20px;
-      text-align: center;
-      margin: auto;
-      width: 50%;
-      padding: 10px;
+    .icon-and-text-container {
+      padding: 0 6vw;
 
-      .text-icon {
-        height: 70px;
-      }
+      .icon-and-text {
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        width: 25%;
+        padding: 10px 10px 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 175px;
 
-      .icon-text {
-        color: #3A3A44;
+        .text-icon {
+        }
+
+        .icon-text {
+          color: #3A3A44;
+          flex: 1;
+          max-width: 270px;
+        }
       }
     }
   }
@@ -58,6 +65,104 @@
       .main-text {
         color: #3A3A44;
         flex: 1
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .second-section {
+    padding: 63px 0;
+    .second-section-part1 {
+
+      .flex-row-center {
+
+      }
+
+      .prop-title {
+
+      }
+
+      .icon-and-text-container {
+        align-items: center;
+        margin-bottom: 63px;
+
+        .icon-and-text {
+          flex-direction: row;
+          align-items: center;
+          width: 100%;
+          text-align: initial;
+          height: 53px;
+          justify-content: center;
+
+          .text-icon {
+          }
+
+          .icon-text {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+
+    .second-section-part2 {
+      flex-direction: column;
+
+      .text {
+        margin-top: 10px;
+        max-height: initial;
+        overflow-x: initial;
+        .title {
+
+        }
+
+        .main-text {
+
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .second-section {
+    .second-section-part1 {
+
+      .flex-row-center {
+
+      }
+
+      .prop-title {
+
+      }
+
+      .icon-and-text-container {
+
+        .icon-and-text {
+
+
+          .text-icon {
+          }
+
+          .icon-text {
+
+          }
+        }
+      }
+    }
+
+    .second-section-part2 {
+
+      .text {
+
+
+        .title {
+
+        }
+
+        .main-text {
+
+        }
       }
     }
   }

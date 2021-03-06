@@ -1,6 +1,8 @@
 .third-section {
   height: 445px;
-
+  carousel{
+    height: 350px !important;
+  }
   .title {
     text-align: center;
     color: #2A2977;
@@ -40,4 +42,36 @@
       }
     }
   }
+}
+
+@media only screen and (max-width: 1000px) {
+  .third-section {
+    height: 900px;
+    carousel{
+      height: 770px !important;
+    }
+    .title {
+
+    }
+
+    .locusviewer-container {
+      flex-direction: column;
+      align-items: center;
+      .locusviewer-image {
+
+      }
+
+      .text-container {
+
+        .text-title {
+
+        }
+
+        .paragraph {
+
+        }
+      }
+    }
+  }
+
 }

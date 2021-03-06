@@ -5,7 +5,7 @@
   height: 505px;
   width: 100%;
   text-align: center;
-  background-image: url('./../../assets/header-image.png');
+  background-image: url('./../../assets/header-image-1920.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -55,3 +55,31 @@
     }
   }
 }
+
+@media only screen and (max-width: 1439px) {
+  .lv-header-image {
+    background-image: url('./../../assets/header-image.png');
+    .header-container {
+      .header-content {
+        .header-sub-title {
+          font-size: 52px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .lv-header-image {
+    background-image: url('./../../assets/header-image-mobile-360.png');
+    .header-container {
+      .header-content {
+        .header-sub-title {
+          font-size: 48px;
+        }
+      }
+    }
+  }
+}
+
+
