@@ -38,3 +38,27 @@
     }
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .seventh-section {
+    text-align: center;
+    .title {
+    }
+    .articles-container {
+      flex-direction: column;
+
+      .article-container {
+        flex-direction: column;
+        img {
+        }
+        .article-description-container {
+          .article-description {
+          }
+          .article-date {
+          }
+        }
+      }
+    }
+  }
+}
+

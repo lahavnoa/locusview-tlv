@@ -7,11 +7,36 @@ footer {
   line-height: 50px;
 
   .text {
-    width: 30vw;
+    width: 40vw;
     text-align: center;
   }
 
   span {
     flex: 1;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  footer {
+    flex-direction: column;
+    color: white;
+    line-height: initial;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    .text {
+      flex: 1;
+      text-align: center;
+      width: auto;
+      margin-top: 10px;
+      &:last-child{
+        font-size: 10px;
+        margin-top: -2px;
+      }
+    }
+
+    span {
+      display: none;
+    }
   }
 }
