@@ -2,7 +2,7 @@
 
 .second-section {
   height: 983px;
-  padding: 63px 15%;
+  padding: 63px 8vw;
 
   .second-section-part1 {
     height: 447px;
@@ -41,9 +41,9 @@
     height: 473px;
 
     .text {
-      margin-top: -5px;
+      margin-top: -61px;
       padding-left: 40px;
-      max-height: 266px;
+      max-height: 380px;
       overflow-x: auto;
       max-width: 500px;
 
@@ -52,10 +52,12 @@
         size: 18px;
         color: $color-orange;
         font-weight: bold;
+        margin-bottom: 20px;
       }
 
       .main-text {
         color: #3A3A44;
+        flex: 1
       }
     }
   }

@@ -13,6 +13,8 @@ import { LvJobsComponent } from './lv-jobs/lv-jobs.component';
 import { LvDayToDayComponent } from './lv-day-to-day/lv-day-to-day.component';
 import { LvInMediaComponent } from './lv-in-media/lv-in-media.component';
 import { LvFooterComponent } from './lv-footer/lv-footer.component';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,8 @@ import { LvFooterComponent } from './lv-footer/lv-footer.component';
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

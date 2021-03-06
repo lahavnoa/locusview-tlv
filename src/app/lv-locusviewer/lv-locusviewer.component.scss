@@ -10,25 +10,34 @@
     padding-bottom: 33px;
   }
 
-  .text {
-    background-image: url('./../../assets/BG-testimonials.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 269px;
-    padding: 56px 72px;
+  .locusviewer-container {
 
-    .text-title {
-      color: #2A2977;
-      font-weight: bold;
-      line-height: 26px;
-      size: 18px;
-      height: 52px;
+    .locusviewer-image {
+      width: 361px;
+      height: 361px;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
-    .paragraph {
-      padding-top: 24px;
-      padding-bottom: 24px;
-      padding-right: 163px;
+    .text-container {
+      background-image: url('./../../assets/BG-testimonials.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 1vw 5vw;
+      flex: 1;
+      min-height: 338px;
+      .text-title {
+        color: #2A2977;
+        font-weight: bold;
+        line-height: 26px;
+        size: 18px;
+        height: 52px;
+      }
+
+      .paragraph {
+        padding-top: 24px;
+        padding-bottom: 24px;
+      }
     }
   }
 }
