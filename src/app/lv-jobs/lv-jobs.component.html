@@ -3,68 +3,12 @@
     JOIN OUR TEAM!
   </div>
   <div class="cards-container flex-wrap flex-row-center">
-    <div class="card flex-column-center">
-      <div class="card-title">DEVELOPMENT</div>
+    <div class="card flex-column-center" *ngFor="let job of jobs">
+      <div class="card-title">{{job.department}}</div>
       <div class="description-container flex-column-center">
-        <div class="description">DevOps Engineer</div>
+        <div class="description">{{job.name}}</div>
       </div>
-      <div class="link-to-job">About The Position ></div>
-    </div>
-    <div class="card flex-column-center">
-      <div class="card-title">DEVELOPMENT</div>
-      <div class="description-container flex-column-center">
-        <div class="description">Java Developer</div>
-      </div>
-      <div class="link-to-job">About The Position</div>
-    </div>
-    <div class="card flex-column-center">
-      <div class="card-title">PRODUCT MANAGEMENT</div>
-      <div class="description-container flex-column-center">
-        <div class="description">Product Manager</div>
-      </div>
-      <div class="link-to-job">About The Position</div>
-    </div>
-    <div class="card flex-column-center">
-      <div class="card-title">MARKETING</div>
-      <div class="description-container flex-column-center">
-        <div class="description">Events Specialist</div>
-      </div>
-      <div class="link-to-job">About The Position</div>
-    </div>
-    <div class="card flex-column-center">
-      <div class="card-title">OPERATION</div>
-      <div class="description-container flex-column-center">
-        <div class="description">Implementation Specialist</div>
-      </div>
-      <div class="link-to-job">About The Position</div>
-    </div>
-    <div class="card flex-column-center">
-      <div class="card-title">OPERATION</div>
-      <div class="description-container flex-column-center">
-        <div class="description">Technical Soulutions Engineer</div>
-      </div>
-      <div class="link-to-job">About The Position</div>
-    </div>
-    <div class="card flex-column-center">
-      <div class="card-title">DEVELOPMENT</div>
-      <div class="description-container flex-column-center">
-        <div class="description">Frontend Developer</div>
-      </div>
-      <div class="link-to-job">About The Position</div>
-    </div>
-    <div class="card flex-column-center">
-      <div class="card-title">BUSINESS DEVELOPMENT</div>
-      <div class="description-container flex-column-center">
-        <div class="description">International Enterpise Sales Manager</div>
-      </div>
-      <div class="link-to-job">About The Position</div>
-    </div>
-    <div class="card flex-column-center">
-      <div class="card-title">PRODUCT MANAGEMENT</div>
-      <div class="description-container flex-column-center">
-        <div class="description">Senior Inbound Technical Product Manager</div>
-      </div>
-      <div class="link-to-job">About The Position</div>
+      <a [href]="job.url_comeet_hosted_page" target="_blank"><div class="link-to-job">About The Position ></div></a>
     </div>
   </div>
 </div>
