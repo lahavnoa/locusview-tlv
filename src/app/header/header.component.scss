@@ -1,13 +1,47 @@
 @import "./src/vars";
 
+@keyframes background-images {
+  0% {
+    background-image: url('./../../assets/header-image-1920-3.png');
+  }
+  30% {
+    background-image: url('./../../assets/header-image-1920-2.png');
+  }
+  80% {
+    background-image: url('./../../assets/header-image-1920-1.png');
+  }
+  100% {
+    background-image: url('./../../assets/header-image-1920-3.png');
+  }
+}
+@keyframes background-images-360 {
+  0% {
+    background-image: url('./../../assets/header-image-mobile-360-3.png');
+  }
+  30% {
+    background-image: url('./../../assets/header-image-mobile-360-2.png');
+  }
+  80% {
+    background-image: url('./../../assets/header-image-mobile-360.png');
+  }
+  100% {
+    background-image: url('./../../assets/header-image-mobile-360-3.png');
+  }
+}
+
+
 .lv-header-image {
   height: 505px;
   width: 100%;
   text-align: center;
-  background-image: url('./../../assets/header-image-1920-1.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  animation-name: background-images;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  background-image: url('./../../assets/header-image-1920-3.png');
   .header-container {
     height: 100%;
     justify-content: center;
@@ -50,8 +84,9 @@
         .follow-us-icon {
           width: 50px;
         }
-        a:hover{
-          transform: scale(1.2) ;
+
+        a:hover {
+          transform: scale(1.2);
         }
       }
     }
@@ -61,6 +96,7 @@
 @media only screen and (max-width: 1439px) {
   .lv-header-image {
     background-image: url('./../../assets/header-image.png');
+
     .header-container {
       .header-content {
         .header-sub-title {
@@ -73,7 +109,8 @@
 
 @media only screen and (max-width: 360px) {
   .lv-header-image {
-    background-image: url('./../../assets/header-image-mobile-360.png');
+    background-image: url('./../../assets/header-image-mobile-360-3.png');
+    animation-name: background-images-360;
     .header-container {
       .header-content {
         .header-sub-title {
