@@ -14,8 +14,7 @@
     <div class="carousel-cell" *ngFor="let locusviewer of locusviewers">
       <div class="locusviewer-container flex">
         <div class="locusviewer-image"
-             [style.backgroundImage]="'url(./../assets/image1.png)'">
-<!--          [style.background]="'url('+course.imageUrl+')'"-->
+             [style.backgroundImage]="'url(./../assets/'+locusviewer.name+'.jpg)'">
         </div>
         <div class="text-container flex-column">
           <div class="text-title">
