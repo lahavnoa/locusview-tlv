@@ -24,6 +24,10 @@ footer {
     font-size: 12px;
     justify-content: center;
     align-items: center;
+    a{
+      height: 25px;
+      line-height: 25px;
+    }
     .text {
       flex: 1;
       text-align: center;
@@ -32,6 +36,7 @@ footer {
       &:last-child{
         font-size: 10px;
         margin-top: -2px;
+        flex: 1;
       }
     }
 
