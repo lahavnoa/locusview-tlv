@@ -69,7 +69,7 @@ export class LvLocusviewerComponent implements OnInit {
         q1_1: '“It felt like home to me from the first interview, there was an instant connection with the team.',
         q2_1: '“My ability to improve and develop myself. I feel like I can always learn and grow as an employee and as a person.',
         q2_2: 'Also, working with people from other teams creates a dynamic and instructive environment.”'
-      },   {
+      }, {
         name: 'Ran',
         role: 'Technical Project Manager',
         q1_1: '“The company’s potential business growth.',
@@ -77,8 +77,6 @@ export class LvLocusviewerComponent implements OnInit {
         q2_1: '“The way we treat our clients, business partners and employees.',
         q2_2: 'The atmosphere at the company is impact driven, growth oriented and always looking for the next challenge.”'
       }
-
     ];
   }
-
 }
