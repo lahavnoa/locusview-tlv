@@ -5,9 +5,11 @@
   <div class="cards-container flex-wrap flex-row-center">
     <div class="card flex-column-center" *ngFor="let job of jobs">
       <div class="card-title">{{job.department}}</div>
-      <div class="description-container flex-column-center">
-        <div class="description">{{job.name}}</div>
-      </div>
+      <a [href]="job.url_comeet_hosted_page" target="_blank" class="flex-1 flex-row-center">
+        <div class="description-container flex-column-center">
+          <div class="description">{{job.name}}</div>
+        </div>
+      </a>
       <a [href]="job.url_comeet_hosted_page" target="_blank"><div class="link-to-job">About The Position ></div></a>
     </div>
   </div>
