@@ -1,3 +1,4 @@
+@import "./src/vars";
 
 .seventh-section {
   .title {
@@ -13,6 +14,8 @@
     color: #3A3A44;
     width: 80%;
 
+
+
     .article-container {
       padding: 0 40px;
       margin-bottom: 61px;
@@ -20,6 +23,7 @@
       img {
         width: 170px;
       }
+
 
       .article-description-container {
         height: 100px;
@@ -42,24 +46,33 @@
 @media only screen and (max-width: 1000px) {
   .seventh-section {
     text-align: center;
+
     .title {
     }
+
     .articles-container {
       flex-direction: column;
 
       .article-container {
         flex-direction: column;
+
         img {
         }
+
         .article-description-container {
           margin-left: initial;
-          .article-description {
-          }
-          .article-date {
-          }
+        }
+
+        .article-description {
+
+        }
+
+        .article-date {
         }
       }
     }
   }
 }
+
+
 

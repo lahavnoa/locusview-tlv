@@ -34,4 +34,18 @@ body{
 .flex{
   display: flex;
 }
+a, a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+
 

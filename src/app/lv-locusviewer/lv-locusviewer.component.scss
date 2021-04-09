@@ -1,8 +1,10 @@
 .third-section {
   height: 445px;
-  carousel{
+
+  carousel {
     height: 350px !important;
   }
+
   .title {
     text-align: center;
     color: #2A2977;
@@ -28,6 +30,7 @@
       padding: 1vw 5vw;
       flex: 1;
       min-height: 338px;
+
       .text-title {
         color: #2A2977;
         font-weight: bold;
@@ -47,31 +50,20 @@
 @media only screen and (max-width: 1000px) {
   .third-section {
     height: 845px;
-    carousel{
-      height: 770px !important;
-    }
-    .title {
 
+    carousel::ng-deep {
+      height: 770px !important;
+
+      .carousel-arrows {
+        .carousel-arrow {
+          top: 45% !important;
+        }
+      }
     }
 
     .locusviewer-container {
       flex-direction: column;
       align-items: center;
-      .locusviewer-image {
-
-      }
-
-      .text-container {
-
-        .text-title {
-
-        }
-
-        .paragraph {
-
-        }
-      }
     }
   }
-
 }

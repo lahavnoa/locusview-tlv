@@ -27,8 +27,6 @@
       }
 
       .description-container {
-        flex: 1;
-
         .description {
           font-size: 28px;
           color: #C4532C;
@@ -49,6 +47,7 @@
   .fifth-section {
     .title {
     }
+
     .cards-container {
       .card {
         width: 39vw;
@@ -56,11 +55,13 @@
 
         .card-title {
         }
+
         .description-container {
           .description {
             padding: 0 1vw;
           }
         }
+
         .link-to-job {
         }
       }
