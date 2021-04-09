@@ -73,7 +73,7 @@ export class LvLocusviewerComponent implements OnInit {
         name: 'Ran',
         role: 'Technical Project Manager',
         q1_1: '“The company’s potential business growth.',
-        q1_2: 'It’s not a regular project management company, and it’s an Israeli Startup, which adds more value for me.“',
+        q1_2: 'It’s not a regular project management company, and it’s an Israeli startup, which adds more value for me.“',
         q2_1: '“The way we treat our clients, business partners and employees.',
         q2_2: 'The atmosphere at the company is impact driven, growth oriented and always looking for the next challenge.”'
       }
