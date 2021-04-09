@@ -48,21 +48,21 @@ export class LvLocusviewerComponent implements OnInit {
         q2_1: '“As a mother of young children, a flexible work-life balance is important to me.',
         q2_2: 'At Locusview, my productivity isn\'t measured by hours, but by how I meet my goals. The thing I love the most is that the company supports gender equality, especially within the R&D Department.”'
       },
-      // {
-      //   name: 'Kiril',
-      //   role: 'QA Engineer',
-      //   q1_1: '“The product has huge potential due to its uniqueness.',
-      //   q1_2: 'It\'s exciting for me to work on an existing product rather than just an idea.”',
-      //   q2_1: '“I love the company’s stability, even during the Coronavirus pandemic, we kept moving forward since the product is used by vital industries.',
-      //   q2_2: 'We might be called a Startup company, but Locusview is stable and profitable from day one.”'
-      // },   {
-      //   name: 'Elena',
-      //   role: 'Automation Developer & team leader',
-      //   q1_1: '“The biggest advantage for me was the product itself.',
-      //   q1_2: 'There are a lot of different startups and products focused on sales and extra consumption, while our product provides solutions for Life Supporting industries.“',
-      //   q2_1: '“I\'m proud to work for a company that makes human basic necessities managed in a modern and safer way. It\'s a product that will always be in demand.',
-      //   q2_2: 'Locusview has a nearly zero employee turnover rate that proves that the company meets any employee expectations. We can work on new projects, bringing own ideas to the table, learn new things, and really developing our careers.”'
-      // },
+      {
+        name: 'Roman',
+        role: 'QA Engineer',
+        q1_1: '“The product has huge potential due to its uniqueness.',
+        q1_2: 'It\'s exciting for me to work on an existing product rather than just an idea.”',
+        q2_1: '“I love the company’s stability, even during the Coronavirus pandemic, we kept moving forward since the product is used by vital industries.',
+        q2_2: 'We might be called a Startup company, but Locusview is stable and profitable from day one.”'
+      },   {
+        name: 'Elena',
+        role: 'Automation Developer & team leader',
+        q1_1: '“The biggest advantage for me was the product itself.',
+        q1_2: 'There are a lot of different startups and products focused on sales and extra consumption, while our product provides solutions for Life Supporting industries.“',
+        q2_1: '“I\'m proud to work for a company that makes human basic necessities managed in a modern and safer way. It\'s a product that will always be in demand.',
+        q2_2: 'Locusview has a nearly zero employee turnover rate that proves that the company meets any employee expectations. We can work on new projects, bringing own ideas to the table, learn new things, and really developing our careers.”'
+      },
       {
         name: 'Ilana',
         role: 'Backend Developer',
